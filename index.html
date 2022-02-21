@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="/" id="fib-form" class="padded-form form-inline">
+        <legend class="no-bottom-space">Recursive Fibonacci Sequence Generator</legend>
+        <p class="no-top-space">
+          <small class="text-muted">
+            Enter a number and click "Submit"
+          </small>
+        </p>
+        <div class="form-group">
+          <input class="form-control" type="text" id="fib-input" placeholder="Ex: 30" />
+        </div>
+        <button id="fib-submit" class="btn btn-info" type="submit">
+          Submit
+        </button>
+      </form>
+      <div id="fib-output" class="centered large text-gray"></div>
+    <script src="script.js"></script>
+</body>
+</html>

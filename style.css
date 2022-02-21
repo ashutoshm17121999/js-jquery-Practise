@@ -1,0 +1,27 @@
+.padded-form  {
+    padding: 20px;
+  }
+  
+  .centered {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .large{
+    font-size: 1.7em;
+  }
+  
+  .text-gray{
+    color: #888;
+  }
+  
+  .no-top-space{
+    padding-top:0;
+    margin-top:0;
+  }
+  
+  .no-bottom-space{
+    padding-bottom:0;
+    margin-bottom:0;
+  }
